@@ -1,0 +1,9 @@
+Ubuntu setup:
+
+sudo apt update
+sudo apt install g++ gcc
+gcc --version
+g++ --version
+sudo apt install build-essential
+
+g++ -std=c++11 sum.cpp -o sums 
